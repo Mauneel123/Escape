@@ -1,0 +1,370 @@
+body {
+    background: #fff;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+/*
+/* body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;} */
+
+/* Full-width input fields */
+.input[type=text], .input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+.input[type=text]:focus, .input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
+.input, .button {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.main-div, .loggedin-div {
+    width: 20%;
+    margin: 150px auto 0px;
+    padding: 20px;
+    display: none;
+}
+
+.main-div .input {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.main-div .input:focus {
+    border: 1px solid #777;
+}
+
+.main-div .button, .loggedin-div .button {
+    background: #5d8ffc;
+    color: #fff;
+    border: 1px solid #5d8ffc;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.Infor{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.main-div .button:hover, .loggedin-div .button:hover {
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+    cursor: pointer;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+.input[type=text], .input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.input[type=text]:focus, .input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for all buttons */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.button:hover {
+    opacity:1;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.top{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+}
+.center{
+    width: 100%;
+    position: absolute;
+    top: 235px;
+    bottom: 50px;
+}
+
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+.playerInfor{
+    width: 100%;
+}
+.playerInforLeft{
+    float: left;
+    width: 200px;
+    height: 350px;
+}
+.playerinforCenter{
+    height: 350px;
+}
+.playerinforRight{
+    float: right;
+    width: 200px;
+    height: 350px;
+}
+
+
+
+
+
+
+
+
+.startButton {
+    display: inline-block;
+    width: 200px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #FFA07A;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.startButton:hover {
+    background-color: #FFA500;
+}
+.startButton:active {
+    background-color: #FFA500;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.startButtonClass {
+    /* display: flex;
+    align-items: center
+    justify-content: center; */
+    position: absolute;
+    /* top: 280px; */
+    left: 42%;
+    bottom: 60px;
+}
+.logoutButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.logoutButton:hover {
+    opacity:1;
+}
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.welcomeMessage {
+    font-style:oblique;
+}
+
+.playerImage {
+    position: relative;
+    top: 280px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+canvas {
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+}
